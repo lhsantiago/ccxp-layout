@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+}
+
+.logo{
+    margin-left: 58px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    height: 40em;
+}
+
+#left{
+    background-color: #514988;
+    width: 50%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.title h1{
+    color: #F3C61F;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.title h3{
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.text{
+    text-align: center;
+    justify-content: center;
+}
+
+.text p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+#right{
+    width: 50%;
+    padding: 25px;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cd{
+    color: #514988;
+    margin-top: 20px;
+    font-family: 'Verdana';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    height: auto;
+}
+
+.aviso{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #E33881;
+}
+
+video{
+    width: 95%;
+    height: 80%;
+}
+
+footer{
+    padding: 1.5em;
+}
+
+#imagens{
+    margin-left: 5em;
+}
+
+#imagens, #compra{
+    display: inline-block;
+    justify-content: space-around;
+    vertical-align: top;
+    padding: 15px;
+}
+
+#tempo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F3C61F;
+    padding: 20px;
+    margin-left: 2em;
+}
+
+button{   
+    width: 14em;
+    height: 4em;
+    background: #514988;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;  
+}
+
+button:hover{
+    background: #514988;
+    cursor: pointer;
+    color: #f3c61f;
+}
+
+
+#compra{
+    margin-top: 2em;
+    margin-left: 15em;
+}
